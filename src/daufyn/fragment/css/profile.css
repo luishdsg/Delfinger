@@ -1,0 +1,468 @@
+#backprofile {
+    background-image: url(./../img/PRO/p.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#setprofile {
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+} 
+
+.setprofileup {
+    border: 0;
+}
+
+
+/*NEWS-ID-FROM-DARKMODE*/
+#navbarup{
+    background: var(--white);
+}
+#navbarconfig{
+    background: var(--white);
+}
+#infotitle,
+#infotitle2,
+#imgprofbord {
+    background: var(--white);
+}
+
+
+/*================ COLLORS==HOVERS ================ /*/
+
+.backcol{
+    padding: 7px 8px 0px 7px;
+
+}
+#svgarrowl,
+#svgarrowr,
+#svgarrowt,
+#svgarrowb {
+    fill: var(--color);
+    background: var(--hover);
+    padding: 7px 8px 0px 7px;
+}
+
+#timelineopt,
+#favoritedopt,
+#trashopt,
+#imageopt {
+    border-top: 2px solid var(--not);
+}
+
+
+/*bordertopcolorhover*/
+
+#timelineopt {
+    border-top: 2px solid var(--color);
+}
+
+#spacetimeline {
+    display: block;
+}
+
+#spaceimage {
+    display: none;
+}
+
+#spacefavorited {
+    display: none;
+}
+
+#spacetrash {
+    display: none;
+}
+
+
+/* gallery */
+
+.alb {
+    overflow: auto;
+}
+
+.contimggal img {
+    max-width: 100%;
+    height: auto;
+    padding: var(--px);
+}
+
+#onengenie {
+    display: block;
+}
+
+#offengenie {
+    display: none;
+}
+
+#setprofile {
+    background: var(--white);
+    display: none;
+}
+
+
+/* ================EDIT==FORM==PROFILE================ */
+.destroyaccount{
+    width: 100vw;
+    height: 100%;
+    filter: blur(4px);
+    position: fixed;
+   
+}
+
+#inlineinfoedit label {
+    top: -18px;
+    padding: 0 5px;
+}
+
+#inlineinfoedit2 label {
+    top: -18px;
+    padding: 0 5px;
+}
+
+#visualeditname {
+    border: none;
+    outline: none;
+}
+
+#visualeditcatchphrase {
+    border: none;
+    height: 4rem;
+    outline: none;
+}
+
+#dateofbirth {
+    background: var(--not);
+    width: 100%;
+    border: var(--px) solid var(--color);
+    padding: var(--bord);
+    border-radius: var(--bord);
+    font: 400 14px 'Poppins', sans-serif;
+    color: var(--maby);
+}
+
+#selectbirthdate:hover #svgcalendar {
+    fill: var(--color);
+}
+
+#selectbirthdate span {
+    left: 88%;
+    top: 9px;
+    z-index: -1;
+}
+
+#dateofbirth::-webkit-inner-spin-button {
+    display: none;
+}
+
+#dateofbirth::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.login-box {
+    width: 100%;
+    padding: 8%;
+    height: 27rem;
+}
+
+.pass-box {
+    width: 100%;
+    padding: 8%;
+    height: auto;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    text-align-last: left;
+    padding: 7px 0 3px 0;
+    font-size: 15px;
+    color: var(--txt);
+    margin-bottom: 50px;
+    border: none;
+    border-bottom: var(--px) solid var(--what);
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    margin-top: 12px;
+    left: -3px;
+    color: var(--txt);
+    transition-duration: 0.3s;
+    font: 400 15px 'Poppins', sans-serif;
+    padding: 10px 0;
+}
+
+.pass-box .user-box label {
+    position: absolute;
+    margin-top: -10px !important;
+    left: -3px;
+    color: var(--txt);
+    transition-duration: 0.3s;
+    font: 400 15px 'Poppins', sans-serif;
+    padding: 10px 0;
+}
+
+.pass-box .user-box input:focus~label,
+.pass-box .user-box input:valid~label {
+    margin-top: -30px !important;
+    transition-duration: 0.3s;
+    left: -3px;
+    color: var(--color);
+    font: 500 14px 'Poppins', sans-serif;
+}
+
+.user-box textarea {
+    border: var(--px) solid var(--maby);
+    padding: 7px 5px;
+    outline: none;
+}
+
+.user-box textarea:focus {
+    border: var(--px) solid var(--color);
+}
+
+.user-box textarea:hover #labeltextarea {
+    color: var(--color);
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    margin-top: 0px;
+    transition-duration: 0.3s;
+    left: -3px;
+    color: var(--color);
+    font: 500 14px 'Poppins', sans-serif;
+}
+
+.login-box .user-box input:focus,
+.login-box .user-box input:valid {
+    transition-duration: 0.3s;
+    border-bottom: var(--px) solid var(--color);
+}
+
+.imgeditprofile {
+    width: 4em;
+    height: 4rem;
+}
+.image {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.deletuser{
+      width: 3rem;
+      top: -15px;
+      left: -13px;
+      z-index: 1;
+      position: absolute;
+      height: 3rem;
+}
+
+/* GENRE-CHECK */
+
+.user-box div div {
+    border: var(--px) solid var(--what);
+}
+
+.user-box div div:hover {
+    border: var(--px) solid var(--color);
+    color: var(--color)!important;
+}
+
+#ongenre {
+    display: flex;
+}
+
+#offgenre {
+    display: none;
+}
+
+#genreul {
+    display: none;
+}
+
+.user-box div ul {
+    background: var(--white);
+    display: none;
+    border-left: var(--px) solid var(--color);
+    border-radius: 0px 0px 15px 15px;
+    border-bottom: var(--px) solid var(--color);
+    border-right: var(--px) solid var(--color);
+}
+
+.user-box div ul li {
+    height: 37px;
+}
+
+#gen1:checked+#fempink {
+    color: var(--pink)!important;
+}
+
+#gen2:checked+#maleblu {
+    color: var(--blue)!important;
+}
+
+#gen3:checked+#transmulti {
+    background: -webkit-linear-gradient( rgb(250, 10, 102), rgb(0, 69, 218)) !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+
+#generchoice1,
+#generchoice2,
+#generchoice3 {
+    display: none;
+}
+
+.genreradio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 20px;
+    width: 20px !important;
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+    margin: 0;
+    border: var(--px) solid var(--color) !important;
+    cursor: pointer;
+    background: var(--white);
+}
+
+.genreradio:after {
+    content: "";
+    display: block;
+    left: -1px;
+    top: -1px;
+    position: absolute;
+    transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--white);
+    opacity: 0;
+    transform: scale(var(--s, 0.7));
+}
+
+.genreradio:checked {
+    background: var(--color) !important;
+    --s: .5;
+    --bc: var(--color);
+    --d-o: .3s;
+    --d-t: .6s;
+    --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+}
+
+.genreradio:disabled {
+    background: var(--what);
+    cursor: not-allowed;
+    opacity: 0.9;
+}
+
+.genreradio:disabled:checked {
+    background: var(--what);
+    --bc: var(--hover);
+}
+
+.genreradio:hover:not(:checked):not(:disabled) {
+    background: var(--color);
+}
+
+.genreradio:not(.switch) {
+    width: 21px;
+}
+
+.genreradio:not(.switch):after {
+    opacity: var(--o, 0);
+}
+
+.genreradio:not(.switch):checked {
+    --o: 1;
+}
+
+
+/* GENRE-CHECK */
+
+#imgfile {
+    opacity: 0;
+    width: 25px;
+    top: 50px;
+    right: 20px;
+    height: 25px;
+}
+
+#searchimgfile label span {
+    padding: 5px 6px;
+    right: 23px;
+    top: 22px;
+}
+
+
+/* svgeditprofile*/
+
+#userpage {
+    display: block;
+}
+
+#heartpage {
+    display: none;
+}
+
+#notificationpage {
+    display: none;
+}
+
+#settingpage {
+    display: none;
+}
+
+
+/*inside edition */
+
+#inputeditedimg {
+    opacity: 0;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+
+/*LOGIN-ACTIVITY*/
+#setlogli{
+    border-bottom: var(--px) solid var(--what);
+}
+
+
+/*THEME*/
+
+#ultheme {
+    width: 7em;
+    color: #000820;
+    right: 2%;
+    background: var(--white);
+    top: 100%;
+    padding: var(--bord);
+}
+
+#ultheme li {
+    margin-top: var(--bord);
+}
+
+#ultheme li div {
+    border-radius: 100rem;
+    width: 5rem;
+    height: 3rem;
+}
+
+#ultheme li i {
+    padding-top: 1rem;
+}

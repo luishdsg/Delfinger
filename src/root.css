@@ -1,0 +1,436 @@
+:root {
+    /* ROOT_COLORS */
+    --color: #31b3ff;
+    --hover: #31b3ff2a;
+    --pattern: #444444;
+    --darkblue: rgb(7, 20, 83);
+    --txtinfo: #aca5a5;
+    --white: white;
+    --pink: rgb(255, 36, 72);
+    --orange: rgb(255, 173, 22);
+    --but: rgb(245, 245, 245);
+    --whorizon: linear-gradient(to left, black, var(--maby), var(--maby), var(--maby), black);
+    --purple: rgb(100, 0, 100);
+    --blue: rgb(4, 172, 250);
+    --green: rgb(0, 161, 35);
+    --not: #0000;
+    --blackq: rgba(0, 0, 0, 0.11);
+    --nut: #e6e6e6;
+    /* HOVERS */
+    --pinkhover: rgba(255, 36, 120, 0.288);
+    --redhover: rgba(255, 0, 0, 0.336);
+    --greenhover: rgba(0, 255, 0, 0.205);
+    --bluehover: rgba(0, 47, 255, 0.185);
+    --what: rgb(220, 221, 221);
+    --maby: rgb(151, 150, 150);
+    --black: black;
+    --blackqq: rgba(0, 0, 0, 0.623);
+    --gray: rgb(48, 48, 48);
+    --grayhover: rgb(63, 63, 63);
+    --txt: rgb(99, 99, 99);
+    --red: red;
+    --hate: rgba(134, 0, 0, 0.445);
+    /* others */
+    --size: 3.5em;
+    --frames: 62;
+    --border: 1rem;
+    --bord: 0.5rem;
+    --easing: cubic-bezier(0.7, 0, 0.3, 1);
+    --duration: 0.5s;
+    --px: 1px;
+    --radiu: 100rem;
+    /* DARK_THEME */
+    --dark: #000000;
+    --darklight: #000000ea;
+}
+
+
+/* LOAD_PAGE_BAR */
+
+
+/* DARK */
+
+
+/* This is a compiled file, you should be editing the file in the templates directory */
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.pace-inactive {
+    display: none;
+}
+
+.pace .pace-progress {
+    background: var(--color);
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 2px;
+}
+
+*,
+*:before,
+*:after {
+    position: relative;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: var(--not);
+    color: var(--black);
+    padding: 0;
+}
+
+a.linkindex:link,
+a.linkindex:visited {
+    color: var(--color) !important;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a.linkpost:link {
+    color: var(--color) !important;
+    text-decoration: none;
+}
+
+a.linkpost:visited {
+    color: var(--purple) !important;
+}
+
+
+/* CHANGE_FRAGMENTS_UTIL */
+
+.hr {
+    width: 78vw;
+    height: var(--px);
+    background: var(--what);
+}
+
+.title {
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+    left: var(--bord);
+    color: var(--grayhover);
+}
+
+.vertic {
+    width: var(--px);
+    height: 100%;
+    position: relative;
+    background: var(--what);
+}
+
+.elipsebig {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 15rem;
+    overflow: hidden;
+}
+
+.elipse {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 10rem;
+    overflow: hidden;
+}
+
+.elipses {
+    text-overflow: ellipsis;
+    max-width: 8rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.elipsemod {
+    text-overflow: ellipsis;
+    max-width: 4rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.elipsemodd {
+    text-overflow: ellipsis;
+    max-width: 5.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.elipsen {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 2.5rem;
+    overflow: hidden;
+}
+
+.elipsenn {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 1.9rem;
+    overflow: hidden;
+}
+
+.elipseflip {
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.horizon {
+    width: 90%;
+    background: var(--what);
+    left: 5%;
+    position: relative;
+    outline: none;
+    height: var(--px);
+}
+
+.horiz {
+    width: 30%;
+    background: var(--what);
+    position: relative;
+    outline: none;
+    height: var(--px);
+}
+
+.comumu {
+    width: 100%;
+    height: auto;
+    outline: none;
+    display: block;
+    align-items: center;
+}
+
+.incomumu {
+    width: 100%;
+    height: auto;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.playvideo {
+    width: 100%;
+    height: auto;
+    background: #ffbb00;
+    padding: 1rem;
+    border: var(--px) solid var(--color);
+    border-radius: 2rem;
+}
+
+html,
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+/* ////////////////////// */
+
+.menudown {
+    background: var(--white);
+    height: 3.5rem;
+    z-index: 2000;
+}
+
+#svghome,
+#svgnews,
+#svgbell,
+#svgmessage {
+    fill: var(--pattern);
+}
+
+.hplus {
+    color: var(--grayhover);
+    margin: 0px !important;
+    font: 600 17px 'Poppins', sans-serif;
+}
+
+h1 {
+    color: var(--maby);
+    margin: 0px !important;
+    font: 400 22px 'Poppins', sans-serif;
+}
+
+.h1 {
+    color: var(--txt);
+    font: 500 22px 'Poppins', sans-serif;
+}
+
+
+/* ////////////////////// */
+
+h2 {
+    color: var(--maby);
+    margin: 0px !important;
+    font: 400 18px 'Poppins', sans-serif;
+}
+
+.h2 {
+    color: var(--txt);
+    font: 400 20px 'Poppins', sans-serif;
+}
+
+
+/* ////////////////////// */
+
+h3 {
+    color: var(--grayhover);
+    margin: 0px !important;
+    font: 400 17px 'Poppins', sans-serif;
+}
+
+.h3 {
+    color: var(--txt);
+    font: 400 17px 'Poppins', sans-serif;
+}
+
+
+/* ////////////////////// */
+
+h4 {
+    margin: 0px !important;
+    color: var(--maby);
+    font: 400 15px 'Poppins', sans-serif;
+}
+
+.h4 {
+    color: var(--gray);
+    font: 600 15px 'Poppins', sans-serif;
+}
+
+
+/* ////////////////////// */
+
+h5 {
+    margin: 0px !important;
+    color: var(--maby);
+    font: 500 13px 'Poppins', sans-serif;
+}
+
+.h5 {
+    color: var(--gray);
+    font: 500 13px 'Poppins', sans-serif;
+}
+
+
+/* ////////////////////// */
+
+h6 {
+    margin: 0px !important;
+    color: var(--maby);
+    font: 600 10px 'Poppins', sans-serif;
+}
+
+.h6 {
+    color: var(--gray);
+    font: 600 10px 'Poppins', sans-serif;
+}
+
+.h7 {
+    font: 400 8px 'Poppins', sans-serif;
+}
+
+
+/* 
+h1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--maby);
+    font: 400 10px 'Poppins', sans-serif;
+}
+
+h2 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--grayhover);
+    font: 600 15px 'Poppins', sans-serif;
+} */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: var(--not);
+    width: 1px;
+    height: 1px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: var(--radiu);
+    background: var(--not);
+    width: 0;
+    height: 1px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 184, 216);
+}
+
+
+/* MOZ_SCROLL */
+
+
+/* width */
+
+::-moz-scrollbar {
+    width: 0px;
+}
+
+
+/* Track */
+
+ ::-moz-scrollbar-track {
+    background: #fbff07;
+}
+
+
+/* Handle */
+
+ ::-moz-scrollbar-thumb {
+    background: rgb(190, 0, 0);
+}
+
+
+/* Handle on hover */
+
+ ::-moz-scrollbar-thumb:hover {
+    background: rgb(0, 184, 216);
+}

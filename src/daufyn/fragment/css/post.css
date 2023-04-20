@@ -1,0 +1,272 @@
+.postall {
+    background: var(--white);
+    padding: 0;
+    padding-top: var(--bord);
+}
+
+
+/* POST_MORE */
+
+.postmore:hover ul {
+    display: block;
+
+} 
+.postmore ul {
+    top: 80%;
+    right: 30%;   
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.hearth {
+    background: red;
+    color: var(--color);
+    fill: var(--color);
+    stroke: var(--color);
+}
+
+.postmore ul li {
+    width: 100%;
+    display: flex!important;
+    height: 3rem;
+    align-items: center;
+}
+
+.postmore ul li button {
+    display: flex;
+    border: none;
+    border-radius: var(--radiu);
+    background: var(--not);
+    outline: none;
+}
+
+.postmore ul li button div {
+    padding: 8px 11px 2px 8px;
+}
+
+.postmore ul li:hover button div {
+    background: var(--but);
+}
+
+.postmore ul li h1 {
+    color: var(--grayhover);
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+
+/* POST_CONTENT */
+
+.posttext p {
+    font-size: 12px;
+    color: var(--txt);
+    word-wrap: break-word;
+}
+
+.maxw {
+    max-width: 100%;
+}
+
+.postcontent img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: var(--border);
+}
+
+
+/* POST-BTN-REACT */
+
+#btnreactc {
+    padding: 10px 11px 5px 11px;
+    border: none;
+}
+
+#btnreactl {
+    padding: 6px 9px 5px 9px;
+    top: 0px;
+    border: none;
+}
+
+#btnreacth {
+    padding: 9px 9.5px 5px 11px;
+    border: none;
+    top: 1px;
+}
+
+#btnreacts {
+    padding: 9px 10px 4px 10px;
+    border: none;
+}
+
+.imgprofilepost {
+    width: 4em;
+    height: 4em;
+}
+
+#localpostimg {
+    max-width: 100%;
+    max-height: 100%;
+    margin: var(--border) 0 var(--border) 0;
+    border-radius: var(--border);
+}
+
+#localpostimg img {
+    width: 100%;
+    position: relative;
+    max-height: 40rem;
+    border-radius: 1rem;
+    text-align: center;
+    background: var(--black);
+}
+
+.contbtn div label {
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.contbtn div label h5 {
+    top: 2px;
+}
+
+.contbtn div label .reactinput {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.contbtn div label .reactinputh {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* =======SHARE-INPUT======= */
+
+
+/* =======SHARE-INPUT======= */
+
+
+/* =======SHARE-INPUT======= */
+
+
+#sharebtn div label .reactinput:checked~span div svg #svgsharein {
+    fill: var(--blue);
+    color: rgb(100, 100, 100);
+    outline: none;
+}
+
+#sharebtn div label span:hover {
+    transition: .4s;
+    outline: none;
+    background: var(--bluehover);
+}
+
+#svgsharein {
+    fill: var(--maby);
+}
+
+
+/* =======HATE-INPUT======= */
+
+
+/* =======HATE-INPUT======= */
+
+
+/* =======HATE-INPUT======= */
+
+#hatebtn div label .reactinput:checked~span div svg #svghateex {
+    fill: var(--red);
+    outline: none;
+}
+
+#hatebtn div label .reactinput:checked~span div svg #svghatein {
+    fill: var(--not);
+    outline: none;
+}
+
+#hatebtn div label span:hover {
+    transition: .4s;
+    outline: none;
+    background: var(--redhover);
+}
+
+#svghatein {
+    fill: #00000000;
+}
+
+#svghateex {
+    fill: var(--maby);
+}
+
+
+/* =======CHAT-INPUT======= */
+
+
+/* =======CHAT-INPUT======= */
+
+
+/* =======CHAT-INPUT======= */
+
+#chatbtn div label .reactinput:checked~span div #svgchat {
+    fill: var(--green) !important;
+}
+
+#chatbtn div label span:hover {
+    transition: .2s;
+    background: var(--greenhover);
+}
+
+
+/* =======LOVE-INPUT======= */
+
+
+/* =======LOVE-INPUT======= */
+
+
+/* =======LOVE-INPUT======= */
+
+#lovebtn div label .reactinput:checked~span div svg #svgloveex {
+    fill: var(--pink);
+    outline: none;
+}
+
+#lovebtn div label .reactinput:checked~span div svg #svglovein {
+    fill: var(--pink);
+    outline: none;
+}
+
+#lovebtn div label span:hover {
+    transition: .2s;
+    outline: none;
+    background: var(--pinkhover);
+}
+
+#svglovein {
+    fill: #00000000;
+}
+
+#svgloveex {
+    fill: #444444;
+}
+
+#contentpost a{
+    color: var(--color);
+    cursor: pointer;
+}
+/* media */
+
+.infoprof {
+    display: flex;
+}
+
+#hashtagpost {
+    text-overflow: ellipsis;
+    width: 8rem;
+    overflow: hidden;
+}
+
